@@ -1,0 +1,5 @@
+x=input("Date in MM/DD/YYYY FORMAT: ")
+sliceA=slice(0,3)
+sliceB=slice(3,6)
+sliceC=slice(6,10)
+print(f"Date in DD/MM/YYYY format: {x[sliceA]+x[sliceB]+x[sliceC]}")
